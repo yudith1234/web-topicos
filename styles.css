@@ -1,6 +1,5 @@
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,16 +17,23 @@ body {
 }
 
 .logo {
-    width: 150px;
-    margin-bottom: 20px;
+    width: 200px;
+    margin: 20px auto;
+    display: block;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.5em;
     margin-bottom: 0.5em;
 }
 
-h2, h3 {
+h2 {
+    font-size: 1.8em;
+    margin: 0.5em 0;
+}
+
+h3 {
+    font-size: 1.4em;
     margin: 0.5em 0;
 }
 
@@ -39,6 +45,7 @@ h2, h3 {
 
 .students p {
     margin: 0.2em 0;
+    font-size: 1.2em;
 }
 
 .btn {
@@ -48,12 +55,12 @@ h2, h3 {
     font-size: 16px;
     text-decoration: none;
     color: #fff;
-    background-color: #007BFF;
+    background-color: #730808;
     border-radius: 5px;
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #5a0606;
 }
 
 .button-container {
