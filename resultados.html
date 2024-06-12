@@ -6,12 +6,27 @@
         /* Estilos para la página */
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
         }
         .descripcion {
-            margin: 20px 0;
-            padding: 10px;
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
+            background-color: #e9ecef;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .descripcion h2 {
+            margin-top: 0;
+        }
+        main {
+            padding: 20px;
         }
         .imagen-espacio {
             margin: 20px 0;
@@ -20,6 +35,9 @@
         .imagen-espacio img {
             max-width: 100%;
             height: auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
@@ -40,16 +58,19 @@
             <div class="imagen-espacio">
                 <!-- Aquí puedes añadir una imagen referenciada -->
                 <img src="ruta/de/tu/imagen1.jpg" alt="Descripción de la imagen 1">
+                <p>Descripción de la imagen 1</p>
             </div>
             
             <div class="imagen-espacio">
                 <!-- Aquí puedes añadir otra imagen referenciada -->
                 <img src="ruta/de/tu/imagen2.jpg" alt="Descripción de la imagen 2">
+                <p>Descripción de la imagen 2</p>
             </div>
             
             <div class="imagen-espacio">
                 <!-- Aquí puedes añadir otra imagen referenciada -->
                 <img src="ruta/de/tu/imagen3.jpg" alt="Descripción de la imagen 3">
+                <p>Descripción de la imagen 3</p>
             </div>
         </section>
     </main>
