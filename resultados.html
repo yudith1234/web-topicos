@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Plataforma digital de Predicción Hidrometeorologica en la Region de Piura del Estado Peruano</title>
+    <title>Plataforma digital de Predicción Hidrometeorológica en la Región de Piura del Estado Peruano</title>
     <style>
         /* Estilos para la página */
         body {
@@ -29,16 +29,34 @@
         main {
             padding: 20px;
         }
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
         .imagen-espacio {
-            margin: 20px 0;
+            flex-basis: calc(50% - 20px); /* Dos columnas con espacio entre ellas */
+            margin-bottom: 20px;
             text-align: center;
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .imagen-espacio:hover {
+            transform: scale(1.05);
         }
         .imagen-espacio img {
             max-width: 100%;
             height: auto;
             border: 1px solid #ccc;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .imagen-espacio p {
+            margin-top: 10px;
+            font-size: 14px;
         }
     </style>
 </head>
