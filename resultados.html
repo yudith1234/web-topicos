@@ -100,51 +100,56 @@
     </div>
     
     <main>
-        <section>
-            <h2>Galería de Imágenes</h2>
-            <div class="galeria">
-                <div class="imagen-espacio" onclick="openModal('img/01.png')">
+    <section>
+        <h2>Graficos</h2>
+        <div class="galeria">
+            <div class="columna">
+                <h3>Año</h3>
+                <div class="imagen-espacio" onclick="openModal('ruta/de/01.png')">
                     <!-- Aquí puedes añadir una imagen referenciada -->
-                    <img src="img/01.png" alt="Descripción de la imagen 1">
+                    <img src="ruta/de/01.png" alt="Descripción de la imagen 1">
                     <p>Descripción de la imagen 1</p>
                 </div>
-                <div class="imagen-espacio" onclick="openModal('img/02.png')">
+                <div class="imagen-espacio" onclick="openModal('ruta/de/02.png')">
                     <!-- Aquí puedes añadir otra imagen referenciada -->
-                    <img src="img/02.png" alt="Descripción de la imagen 2">
+                    <img src="ruta/de/02.png" alt="Descripción de la imagen 2">
                     <p>Descripción de la imagen 2</p>
                 </div>
-                <div class="imagen-espacio" onclick="openModal('img/03.png')">
+                <div class="imagen-espacio" onclick="openModal('ruta/de/03.png')">
                     <!-- Aquí puedes añadir otra imagen referenciada -->
-                    <img src="img/03.png" alt="Descripción de la imagen 3">
+                    <img src="ruta/de/03.png" alt="Descripción de la imagen 3">
                     <p>Descripción de la imagen 3</p>
                 </div>
-                <div class="imagen-espacio" onclick="openModal('img/04.png')">
+            </div>
+            <div class="columna">
+                <h3>Semestre</h3>
+                <div class="imagen-espacio" onclick="openModal('ruta/de/04.png')">
                     <!-- Aquí puedes añadir una imagen referenciada -->
-                    <img src="img/04.png" alt="Descripción de la imagen 4">
+                    <img src="ruta/de/04.png" alt="Descripción de la imagen 4">
                     <p>Descripción de la imagen 4</p>
                 </div>
-                <div class="imagen-espacio" onclick="openModal('img/05.png')">
+                <div class="imagen-espacio" onclick="openModal('ruta/de/05.png')">
                     <!-- Aquí puedes añadir otra imagen referenciada -->
-                    <img src="img/05.png" alt="Descripción de la imagen 5">
+                    <img src="ruta/de/05.png" alt="Descripción de la imagen 5">
                     <p>Descripción de la imagen 5</p>
                 </div>
-                <div class="imagen-espacio" onclick="openModal('img/06.png')">
+                <div class="imagen-espacio" onclick="openModal('ruta/de/06.png')">
                     <!-- Aquí puedes añadir otra imagen referenciada -->
-                    <img src="img/06.png" alt="Descripción de la imagen 6">
+                    <img src="ruta/de/06.png" alt="Descripción de la imagen 6">
                     <p>Descripción de la imagen 6</p>
                 </div>
             </div>
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-                <!-- Modal content -->
-                <span class="close" onclick="closeModal()">&times;</span>
-                <div class="modal-content">
-                    <img id="modalImg" src="" alt="Imagen modal">
-                </div>
+        </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+                <img id="modalImg" src="" alt="Imagen modal">
             </div>
-        </section>
-    </main>
-
+        </div>
+    </section>
+</main>
     <script>
         function openModal(imgUrl) {
             var modal = document.getElementById("myModal");
